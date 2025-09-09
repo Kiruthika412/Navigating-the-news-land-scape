@@ -1,0 +1,12 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .app-content {
+    flex: 1; /* grows to fill available vertical space */
+    padding: 20px 15px;
+    background-color: #f9f9f9; /* subtle light background */
+  }
+  

@@ -1,0 +1,42 @@
+.news-page {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 1rem 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  
+  .news-article {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .news-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0b3d91;
+  }
+  
+  .news-meta {
+    font-size: 0.9rem;
+    color: #6b7280;
+    font-style: italic;
+  }
+  
+  .news-image {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .news-content p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  

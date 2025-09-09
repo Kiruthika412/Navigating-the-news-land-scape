@@ -1,0 +1,94 @@
+.newsletter-container {
+    max-width: 480px;
+    margin: 3rem auto;
+    padding: 2.5rem 2rem;
+    background-color: #f9fafb;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #334155;
+  }
+  
+  .newsletter-title {
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  .newsletter-subtitle {
+    font-size: 1rem;
+    color: #64748b;
+    margin-bottom: 1.8rem;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+  }
+  
+  .newsletter-input {
+    flex: 1 1 250px;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #cbd5e1;
+    border-radius: 9999px; /* fully rounded */
+    transition: border-color 0.3s ease;
+    outline-offset: 2px;
+  }
+  
+  .newsletter-input:focus {
+    border-color: #3b82f6; /* blue */
+    outline: none;
+  }
+  
+  .newsletter-button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    min-width: 120px;
+    user-select: none;
+  }
+  
+  .newsletter-button:hover,
+  .newsletter-button:focus {
+    background-color: #2563eb;
+    outline: none;
+  }
+  
+  .newsletter-success {
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem;
+    background-color: #d1fae5;
+    border: 1.5px solid #10b981;
+    border-radius: 8px;
+    color: #065f46;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  
+  .newsletter-disclaimer {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: #94a3b8;
+  }
+  
+  .newsletter-disclaimer a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .newsletter-disclaimer a:hover,
+  .newsletter-disclaimer a:focus {
+    text-decoration: underline;
+  }
+  

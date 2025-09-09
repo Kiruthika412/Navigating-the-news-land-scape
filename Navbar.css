@@ -1,0 +1,113 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3vw;
+    background-color: #1e293b; /* Dark Blue/Slate */
+    color: #f1f5f9; /* Light text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  }
+  
+  /* Logo */
+  .navbar__logo {
+    font-weight: 700;
+    font-size: 1.8rem;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+  }
+  
+  .navbar__logo h2 {
+    margin: 0;
+    color: #38bdf8; /* Cyan accent */
+  }
+  
+  /* Nav links container */
+  .navbar__links {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  /* Each nav link */
+  .navbar__links p {
+    cursor: pointer;
+    font-weight: 500;
+    transition: color 0.25s ease;
+    position: relative;
+    padding: 0.2rem 0;
+    user-select: none;
+    outline: none;
+  }
+  
+  .navbar__links p:hover,
+  .navbar__links p:focus {
+    color: #38bdf8;
+  }
+  
+  .navbar__links p.active {
+    color: #38bdf8;
+    font-weight: 700;
+    border-bottom: 3px solid #38bdf8;
+    padding-bottom: 0.15rem;
+  }
+  
+  /* Search container */
+  .navbar__search {
+    display: flex;
+    align-items: center;
+    background-color: #334155; /* Slightly lighter slate */
+    border-radius: 9999px; /* Full round */
+    padding: 0.2rem 0.6rem;
+    max-width: 250px;
+    width: 100%;
+  }
+  
+  /* Search input */
+  .search-input {
+    flex-grow: 1;
+    border: none;
+    background: transparent;
+    padding: 0.4rem 0.6rem;
+    color: #f1f5f9;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 9999px;
+    user-select: text;
+  }
+  
+  .search-input::placeholder {
+    color: #94a3b8; /* Gray placeholder */
+  }
+  
+  /* Search icon */
+  .search-icon {
+    color: #38bdf8;
+    font-size: 1.3rem;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 6px;
+    outline: none;
+  }
+  
+  .search-icon:focus {
+    outline: 2px solid #38bdf8;
+    border-radius: 4px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .navbar__links {
+      display: none; /* For now, could add hamburger menu */
+    }
+    
+    .navbar__search {
+      max-width: 150px;
+    }
+  }
+  
